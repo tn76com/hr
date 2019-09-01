@@ -1,0 +1,28 @@
+<div style="width: 600px; margin: 0px auto;">
+    <h2>Login</h2>
+
+    <form method="post">
+        <p><input type="text" name="loginemail" placeholder="Email"></p>
+        <p><input type="password" name="loginpassword" placeholder="Password"></p>
+        <p><input type="submit" id="submitemail" value="Login"></p>
+    </form>
+</div>
+
+<pre>
+
+# Testing login
+to create test user, just use the following code in (user route), after created users, please commented out these lines:
+
+
+```bash
+var user = new User( {
+    email: 'any.email',
+    password: 'any.password'
+} );
+
+user.save();
+```
+
+
+
+</pre>
